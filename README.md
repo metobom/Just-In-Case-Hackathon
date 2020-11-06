@@ -3,7 +3,11 @@ Bu repo katıldığımız Just In Case Hackathon isimli yarışmanın kodların�
 
 # TAKIM
 Faruk Coşkun
+
 Hikmet Batuhan Görgülü
+
 Mehmet Ali Yaş
+
 Ömer Demirci
+
 Mertcan Karık
