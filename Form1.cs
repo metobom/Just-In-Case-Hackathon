@@ -18,6 +18,11 @@ namespace HACKATHON_2020_YTU
         public MainMenu()
         {
             InitializeComponent();
+            label1.BackColor = System.Drawing.Color.Transparent;
+            label3.BackColor = System.Drawing.Color.Transparent;
+            label2.BackColor = System.Drawing.Color.Transparent;
+            button1.BackColor = System.Drawing.Color.Transparent;
+            button2.BackColor = System.Drawing.Color.Transparent;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -39,7 +44,8 @@ namespace HACKATHON_2020_YTU
             
             if(combo_text1 == "Elektrik Elektronik Mühendisliği")
             {
-                label2.Text = "Yönlendiriliyor: " + combo_text1;
+                label2.Text = "Yönlendirildi: " + combo_text1;
+                this.Hide();
                 EEform.Show(); 
             }
             else if (combo_text1 == "")
@@ -50,7 +56,22 @@ namespace HACKATHON_2020_YTU
 
         private void Form1_Load(object sender, EventArgs e)
         {
-   
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

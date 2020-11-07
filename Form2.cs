@@ -16,9 +16,12 @@ namespace HACKATHON_2020_YTU
         {
             InitializeComponent();
             textBox1.Multiline = true;
+            button1.BackColor = System.Drawing.Color.Transparent;
+            button2.BackColor = System.Drawing.Color.Transparent;
+            button3.BackColor = System.Drawing.Color.Transparent;
             //textBox1.ScrollBars = ScrollBars.Both();
         }
-
+        
         private void EEM_Load(object sender, EventArgs e)
         {
 
@@ -28,6 +31,18 @@ namespace HACKATHON_2020_YTU
         {
             var meslek_testFORM = new meslek_test();
             meslek_testFORM.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var main_menu = new MainMenu();
+            this.Close();
+            main_menu.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
